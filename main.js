@@ -8,14 +8,14 @@ const quizData = [
       answer: 'Paris',
     },
     {
-      question: 'What is the largest planet in our solar system?',
-      options: ['Mars', 'Saturn', 'Jupiter', 'Neptune'],
-      answer: 'Jupiter',
+      question: 'What year was the movie Titanic released?',
+      options: ['1994', '2001', '1997', '1999'],
+      answer: '1997',
     },
     {
-      question: 'Which country won the FIFA World Cup in 2018?',
-      options: ['Brazil', 'Germany', 'France', 'Argentina'],
-      answer: 'France',
+      question: 'Who was the first woman to win a Nobel Prize?',
+      options: ['Madonna', 'Frida Kahlo', 'Oprah', 'Marie Curie'],
+      answer: 'Marie Curie',
     },
     {
       question: 'What is the tallest mountain in the world?',
@@ -33,9 +33,9 @@ const quizData = [
       answer: 'Pacific Ocean',
     },
     {
-      question: 'What is the chemical symbol for gold?',
-      options: ['Au', 'Ag', 'Cu', 'Fe'],
-      answer: 'Au',
+      question: 'what currency does mexico use?',
+      options: ['Dollars', 'Euros', 'won', 'Pesos'],
+      answer: 'Pesos',
     },
     {
       question: 'Who painted the Mona Lisa?',
@@ -192,3 +192,4 @@ const quizData = [
   showAnswerButton.addEventListener('click', showAnswer);
   
   displayQuestion();
+  
