@@ -1,6 +1,6 @@
 const jsControlled = document.getElementById('js-controlled');
 
-
+//questions//
 const quizData = [
     {
       question: 'What is the capital of France?',
@@ -192,4 +192,3 @@ const quizData = [
   showAnswerButton.addEventListener('click', showAnswer);
   
   displayQuestion();
-  
