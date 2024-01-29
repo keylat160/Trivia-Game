@@ -162,7 +162,7 @@ const quizData = [
     resultContainer.innerHTML = '';
     displayQuestion();
   }
-  
+  //buttons//
   function showAnswer() {
     quizContainer.style.display = 'none';
     submitButton.style.display = 'none';
@@ -179,7 +179,7 @@ const quizData = [
         </p>
       `;
     }
-  
+  //results//
     resultContainer.innerHTML = `
       <p>You scored ${score} out of ${quizData.length}!</p>
       <p>Incorrect Answers:</p>
