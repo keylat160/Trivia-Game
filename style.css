@@ -51,11 +51,12 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px 20px;
-    background-color: #428bca;
-    color: black;
+    background-color: black;
+    color: white;
     border: none;
     cursor: pointer;
     font-size: 20px;
+    
     border-radius: 4px;
     transition: background-color 0.3s;
     margin-right: 10px;
