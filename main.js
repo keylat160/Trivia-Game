@@ -85,7 +85,7 @@ const quizData = [
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
-  
+  //display questions//
   function displayQuestion() {
     const questionData = quizData[currentQuestion];
   

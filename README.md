@@ -5,7 +5,9 @@ Test your knowledge by answering 10 random questions.
 You would get the result at the end and if you get wrong answers it would also give you the correct answers at the end of the game.
 
 How to play:
+   
 
+   
 1st Click the play button to start the game.
 
 
