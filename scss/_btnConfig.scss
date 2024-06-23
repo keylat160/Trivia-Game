@@ -1,0 +1,35 @@
+@import "utilities";
+@import "config";
+
+%btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    //background-color: black;
+    //color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  
+  &:hover {
+    cursor: pointer;
+    //background-color: #3071a9;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+}
+
+.btn-primary {
+    @extend %btn;
+    @include set-bg($primary-color);
+}
+
+.btn-secondary {
+    @extend %btn;
+    @include set-bg($secondary-color);
+}
+  

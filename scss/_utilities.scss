@@ -1,0 +1,20 @@
+//function
+@function text-color-picker($color) {
+ @if(lightness($color) > 70) {
+    @return black;
+ } @else {
+    @return white;
+ }
+ }   
+@mixin set-bg($color) {
+    background-color: $color;
+    color: text-color-picker($color)
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
